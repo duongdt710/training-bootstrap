@@ -1,0 +1,91 @@
+.container a	{
+	text-decoration: none;
+}
+header .navbar-collapse .navbar-header a {
+	color: white;
+}
+header .navbar-collapse {
+	background: #00483e;
+}
+header .navbar-collapse ul.nav li a {
+	color: white;
+}
+.container h3 {
+	font-family: serif;
+}
+header .navbar-collapse .navbar-header a:hover {
+	color: #ff961f;
+}
+header .navbar-collapse ul.nav li a:hover {
+	background: #009a82;
+	color: #cffff7;
+}
+
+#slideshow {
+	margin-top: -16px;
+	/*margin: 0 auto;*/
+	width: 1137px;
+	height: 300px;
+	border: 1px solid #333;
+	position: relative;
+}
+.slide {
+	width: 1137px;
+	height: 300px;
+}
+.slide img {
+	width: 1137px;
+	height: 300px;
+}
+.slide:not(:first-child) {
+	display: none;
+}
+#prev, #next {
+	text-transform: uppercase;
+	top: 130px;
+	position: absolute;
+	color: white;
+	font-size:25px;
+	opacity: 0.6;
+}
+#prev i:hover {
+	background: white;
+	color: black;
+	height: 45px;
+	opacity: 0.6;
+	border-radius: 0 3px 3px 0;
+	transition: 0.6s ease;
+}
+#prev i {
+	padding:12px 12px 0 0;
+}
+#next {
+	right: 0;
+}
+#next i:hover {
+	background: white;
+	color: black;
+	height: 43px;
+	opacity: 0.6;
+	border-radius: 3px 0 0 3px;
+	transition: 0.6s ease;
+}
+#next i {
+	padding: 10px 0 0 12px;
+}
+.footer {
+	background-color: #00483e;
+	color: white;
+}
+.footer .service {
+	padding: 10px;
+}
+.footer .store {
+	padding-top: 10px;
+}
+.footer .pay {
+	padding-top: 10px;
+}
+.footer form {
+	padding-top: 10px;
+}
